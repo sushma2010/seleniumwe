@@ -196,7 +196,7 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
 		<configuration>
-<release>17.0.10 </release>
+<release>java 17.0.10 </release>
 </configuration>
         </plugin>
         <plugin>
