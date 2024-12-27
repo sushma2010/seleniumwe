@@ -13,7 +13,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>17</maven.compiler.release>
+   
   </properties>
 
   <dependencyManagement>
@@ -195,11 +195,9 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
-	<configuration>
-
-<release>17.0.10</release>
-
-</configuration>	
+          <configuration>
+			<release>17</release>
+		  </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
